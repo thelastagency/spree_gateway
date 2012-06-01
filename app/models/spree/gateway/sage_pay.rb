@@ -12,7 +12,7 @@ module Spree
     end
     
     def options
-      provider_class.simuluate = self.preferred_simulate
+      provider_class.simulate = self.preferred_simulate
       super
     end
   end
