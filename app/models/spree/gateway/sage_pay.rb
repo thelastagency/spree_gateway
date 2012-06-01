@@ -3,7 +3,7 @@ module Spree
     preference :login, :string
     preference :password, :string
     preference :account, :string
-    preference :preferred_simulate, :boolean
+    preference :simulate, :boolean
     
     attr_accessible :preferred_login, :preferred_password, :preferred_account, :preferred_simulate
 
